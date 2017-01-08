@@ -36,10 +36,24 @@ h1, h2, h3 {
   border: none;
 }
 
+// Navbar Brand Styles
 .navbar-brand {
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+// Hamburger Menu Styles
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #00c6ff;
+  }
+}
+
 
 // Home Page Styles
 .navbar-default .navbar-brand, 
@@ -51,6 +65,7 @@ h1, h2, h3 {
   }
 }
 
+// Home Page Callout
 .home-callout {
   color: white;
   margin-top: -20px;
