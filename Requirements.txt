@@ -4,3 +4,7 @@ Memberships
 * User should see link for Pro plan on home page
 * Basic plan link should point to regular Devise sign up form
 * Pro plan link should post to a custom sign up form for credit info
+
+ActiveRecord
+Parameters
+Substitution
