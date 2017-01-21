@@ -20,7 +20,7 @@ class ProfilesController < ApplicationController
     end
   end
   
-  # White list fields that should be accepted by the form
+  # Whitelist fields that should be accepted by the form for security
   private
     def profile_params
       params.require(:profile).permit(:first_name, :last_name, :job_title, :phone_number, :contact_email, :description)
